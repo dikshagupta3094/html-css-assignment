@@ -1,0 +1,140 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 0px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+/* ----Header Section--- */
+
+.nav-bar{
+  display: flex;
+  margin-left: 100px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+/* ----Navigation menu---- */
+
+.list{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 45px;
+    right: 180px;
+}
+.list li {
+ list-style: none;
+}
+.list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+.list li a:hover{
+    color: rgb(43, 203, 43);
+    text-decoration: underline;
+}
+
+/* ----main section---- */
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 85vh;
+} 
+
+/* ------main-left-section------ */
+
+.main-left-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 5%;
+    width: 50%;
+}
+.main-left-section h1{
+    margin-top: 30px;
+    font-size: 95px;
+}
+.main-left-section p{
+    font-size:23px;
+    color: #808080;
+    margin: 20px 0px;
+}
+
+img[alt="stethoscope"]{
+   position: absolute;
+   width:90%;
+   top: -60px;
+   right: -25px;
+   z-index: -1;
+ 
+}
+img[alt="topAngle"]{
+    width: 30px;
+    position: absolute;
+    left: 10px;
+}
+
+img[alt="bottomAngle"]{
+    /* background-color: black; */
+    width: 30px;
+    position: absolute;
+    left: 700px;
+}
+
+img[alt="mouse"]{
+    position: absolute;
+    right: 75px;
+    top: 500px;
+    
+}
+/* ----button---- */
+.btn{
+    position: relative;
+    left: 15px;
+    background-color: #20bc7e;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 40px;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* ----main-right-section--- */
+
+.main-right-section{
+    width: 50%;
+    
+}
+
+/* -----Desingning the image */
+
+.greenBox ,.yellowBox{
+    position: absolute;
+    right: 0;
+
+}
+.greenBox{
+    width: 35%;
+    bottom: 35px;
+}
+.yellowBox{
+   width: 30%;
+   bottom: 80px;
+}
+.doctor{
+    position: absolute;
+    height: 90%;
+   bottom: 35px;
+   /* left: 0; */
+   right: 0;
+}
